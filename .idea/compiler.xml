@@ -19,8 +19,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cloud-platform_main" target="1.5" />
-      <module name="cloud-platform_test" target="1.5" />
+      <module name="cloud-platform_main" target="1.8" />
+      <module name="cloud-platform_test" target="1.8" />
+      <module name="config-server-1_main" target="1.8" />
+      <module name="config-server-1_test" target="1.8" />
+      <module name="config_main" target="1.8" />
+      <module name="config_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

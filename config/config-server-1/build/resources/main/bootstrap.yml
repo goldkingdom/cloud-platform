@@ -1,0 +1,16 @@
+server.port: 9999
+
+spring:
+  application.name: config-server-1
+  cloud:
+    consul:
+      enabled: true
+      host: localhost
+      port: 8500
+      config:
+        enabled: true
+        dataKey: configuration
+        format: YAML
+
+userInfo:
+  name: tom
