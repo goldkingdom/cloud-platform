@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-platform.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-platform_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-platform_main.iml" group="cloud-platform" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-platform_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-platform_test.iml" group="cloud-platform" />
+    </modules>
+  </component>
+</project>
