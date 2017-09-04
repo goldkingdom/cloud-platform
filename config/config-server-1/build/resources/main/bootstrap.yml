@@ -13,4 +13,4 @@ spring:
         format: YAML
 
 userInfo:
-  name: tom
+  name: marry

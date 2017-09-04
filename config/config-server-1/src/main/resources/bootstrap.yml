@@ -11,6 +11,3 @@ spring:
         enabled: true
         dataKey: configuration
         format: YAML
-
-userInfo:
-  name: marry
