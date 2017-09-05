@@ -1,12 +1,12 @@
 allprojects {
 
-    apply plugin: "java"
-    apply plugin: "idea"
-    apply plugin: "spring-boot"
-    apply plugin: "io.spring.dependency-management"
-
     group = "cn.xj"
     version = "1.0-SNAPSHOT"
+
+    apply plugin: "java"
+    apply plugin: "idea"
+    apply plugin: 'spring-boot'
+    apply plugin: "io.spring.dependency-management"
 
     sourceCompatibility = 1.8
     targetCompatibility = 1.8
@@ -17,39 +17,35 @@ allprojects {
         mavenLocal()
         mavenCentral()
         maven { url "http://maven.aliyun.com/nexus/content/groups/public" }
+        maven { url 'https://repo.spring.io/libs-milestone' }
     }
 
     ext {
-        springCloudStarterParentVerstion = "1.0.0.RELEASE"
-//        springCloudVersion = "Dalston.RELEASE"
-        springCloudVersion = "Dalston.SR1"
+        springCloudVersion = "Dalston.SR3"
+        springBootVersion = "1.5.6.RELEASE"
+        consulVersion = "1.2.1.RELEASE"
+        sleuthVersion = "1.2.4.RELEASE"
         guavaVersion = "14.0-rc2"
         gsonVersion = "2.8.0"
     }
 
     dependencies {
-        compile("org.springframework.cloud:spring-cloud-starter-parent:${springCloudStarterParentVerstion}",
-//                "org.springframework.cloud:spring-cloud-starter-eureka",
-//                "org.springframework.cloud:spring-cloud-starter-zuul",
-//                "org.springframework.cloud:spring-cloud-starter-bus-amqp",
-                "org.springframework.cloud:spring-cloud-starter-consul-discovery",
-                "org.springframework.boot:spring-boot-starter",
+        compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}",
+                "org.springframework.cloud:spring-cloud-starter-consul-all",
+                "org.springframework.cloud:spring-cloud-starter-sleuth",
                 "org.springframework.boot:spring-boot-starter-web",
                 "org.springframework.boot:spring-boot-devtools",
                 "org.springframework.boot:spring-boot-starter-actuator",
-                "org.springframework.boot:spring-boot-starter-aop",
-//                "org.springframework.boot:spring-boot-starter-data-redis",
-//                "org.springframework.boot:spring-boot-starter-amqp",
-                "org.springframework.boot:spring-boot-configuration-processor",
                 "org.apache.commons:commons-lang3:3.4",
                 "com.google.guava:guava:${guavaVersion}",
                 "com.google.code.gson:gson:${gsonVersion}")
-        testCompile("org.springframework.boot:spring-boot-starter-test")
     }
 
     dependencyManagement {
         imports {
             mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+            mavenBom "org.springframework.cloud:spring-cloud-consul-dependencies:${consulVersion}"
+            mavenBom "org.springframework.cloud:spring-cloud-sleuth:${sleuthVersion}"
         }
     }
 
@@ -58,18 +54,22 @@ allprojects {
 buildscript {
 
     ext {
-        springBootVersion = "1.5.4.RELEASE"
+        springBootVersion = "1.5.6.RELEASE"
         springloadedVersion = "1.2.7.RELEASE"
+        springGradleVersion = "0.5.6.RELEASE"
     }
 
     repositories {
         mavenLocal()
         mavenCentral()
+        maven { url "http://maven.aliyun.com/nexus/content/groups/public" }
+        maven { url 'https://repo.spring.io/libs-milestone' }
     }
 
     dependencies {
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
-        classpath("org.springframework:springloaded:${springloadedVersion}")
+        classpath "io.spring.gradle:dependency-management-plugin:${springGradleVersion}"
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}"
+        classpath "org.springframework:springloaded:${springloadedVersion}"
     }
 
 }
