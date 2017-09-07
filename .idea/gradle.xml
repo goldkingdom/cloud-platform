@@ -10,6 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/config" />
+            <option value="$PROJECT_DIR$/config/config-client-1" />
             <option value="$PROJECT_DIR$/config/config-server-1" />
           </set>
         </option>

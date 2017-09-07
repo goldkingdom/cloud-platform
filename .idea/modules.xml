@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-platform_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-platform_main.iml" group="cloud-platform" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-platform_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-platform_test.iml" group="cloud-platform" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config.iml" group="config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config-client-1/config-client-1.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config-client-1/config-client-1.iml" group="config/config-client-1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config-client-1/config-client-1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config-client-1/config-client-1_main.iml" group="config/config-client-1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config-client-1/config-client-1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config-client-1/config-client-1_test.iml" group="config/config-client-1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config-server-1/config-server-1.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config-server-1/config-server-1.iml" group="config/config-server-1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config-server-1/config-server-1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config-server-1/config-server-1_main.iml" group="config/config-server-1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config-server-1/config-server-1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config-server-1/config-server-1_test.iml" group="config/config-server-1" />

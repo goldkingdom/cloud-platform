@@ -2,4 +2,6 @@ rootProject.name = 'cloud-platform'
 include 'config'
 include 'config:config-server-1'
 findProject(':config:config-server-1')?.name = 'config-server-1'
+include 'config:config-client-1'
+findProject(':config:config-client-1')?.name = 'config-client-1'
 

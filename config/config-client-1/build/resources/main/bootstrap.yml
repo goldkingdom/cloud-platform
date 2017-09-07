@@ -1,16 +1,12 @@
-server.port: 9999
+server.port: 9001
 
 spring:
-  application.name: config-server-1
+  application.name: config-client-1
   profiles:
     active: dev
   cloud:
     config:
       profile: ${spring.profiles.active}
-      server:
-        git:
-          uri: https://github.com/goldkingdom/cloud-platform/
-          search-paths: config/config-repo
     consul:
       enabled: true
       host: localhost
@@ -24,10 +20,13 @@ spring:
         healthCheckInterval: 15s
         preferIpAddress: true
         tags: ${spring.application.name}
-      config:
+#      config:
+#        enabled: true
+#        dataKey: configuration
+#        format: YAML
+    bus:
+      trace:
         enabled: true
-        dataKey: configuration
-        format: YAML
   rabbitmq:
     host: localhost
     port: 5672
