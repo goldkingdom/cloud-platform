@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/access/access.iml" filepath="$PROJECT_DIR$/.idea/modules/access/access.iml" group="access" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/access/access_main.iml" filepath="$PROJECT_DIR$/.idea/modules/access/access_main.iml" group="access" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/access/access_test.iml" filepath="$PROJECT_DIR$/.idea/modules/access/access_test.iml" group="access" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/asset/asset.iml" filepath="$PROJECT_DIR$/.idea/modules/asset/asset.iml" group="asset" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/asset/asset-1/asset-1.iml" filepath="$PROJECT_DIR$/.idea/modules/asset/asset-1/asset-1.iml" group="asset/asset-1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/asset/asset-1/asset-1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/asset/asset-1/asset-1_main.iml" group="asset/asset-1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/asset/asset-1/asset-1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/asset/asset-1/asset-1_test.iml" group="asset/asset-1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/asset/asset_main.iml" filepath="$PROJECT_DIR$/.idea/modules/asset/asset_main.iml" group="asset" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/asset/asset_test.iml" filepath="$PROJECT_DIR$/.idea/modules/asset/asset_test.iml" group="asset" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-platform.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-platform.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-platform_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-platform_main.iml" group="cloud-platform" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-platform_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-platform_test.iml" group="cloud-platform" />
@@ -9,11 +18,23 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config-client-1/config-client-1.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config-client-1/config-client-1.iml" group="config/config-client-1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config-client-1/config-client-1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config-client-1/config-client-1_main.iml" group="config/config-client-1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config-client-1/config-client-1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config-client-1/config-client-1_test.iml" group="config/config-client-1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config-client-2/config-client-2.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config-client-2/config-client-2.iml" group="config/config-client-2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config-client-2/config-client-2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config-client-2/config-client-2_main.iml" group="config/config-client-2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config-client-2/config-client-2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config-client-2/config-client-2_test.iml" group="config/config-client-2" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config-server-1/config-server-1.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config-server-1/config-server-1.iml" group="config/config-server-1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config-server-1/config-server-1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config-server-1/config-server-1_main.iml" group="config/config-server-1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config-server-1/config-server-1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config-server-1/config-server-1_test.iml" group="config/config-server-1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config_main.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config_main.iml" group="config" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config_test.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config_test.iml" group="config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/access/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/.idea/modules/access/mybatis/mybatis.iml" group="access/mybatis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/access/mybatis/mybatis_main.iml" filepath="$PROJECT_DIR$/.idea/modules/access/mybatis/mybatis_main.iml" group="access/mybatis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/access/mybatis/mybatis_test.iml" filepath="$PROJECT_DIR$/.idea/modules/access/mybatis/mybatis_test.iml" group="access/mybatis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server.iml" group="server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server-1/server-1.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server-1/server-1.iml" group="server/server-1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server-1/server-1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server-1/server-1_main.iml" group="server/server-1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server-1/server-1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server-1/server-1_test.iml" group="server/server-1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server_main.iml" group="server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server_test.iml" group="server" />
     </modules>
   </component>
 </project>

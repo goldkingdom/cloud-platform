@@ -19,14 +19,28 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="access_main" target="1.8" />
+      <module name="access_test" target="1.8" />
+      <module name="asset-1_main" target="1.8" />
+      <module name="asset-1_test" target="1.8" />
+      <module name="asset_main" target="1.8" />
+      <module name="asset_test" target="1.8" />
       <module name="cloud-platform_main" target="1.8" />
       <module name="cloud-platform_test" target="1.8" />
       <module name="config-client-1_main" target="1.8" />
       <module name="config-client-1_test" target="1.8" />
+      <module name="config-client-2_main" target="1.8" />
+      <module name="config-client-2_test" target="1.8" />
       <module name="config-server-1_main" target="1.8" />
       <module name="config-server-1_test" target="1.8" />
       <module name="config_main" target="1.8" />
       <module name="config_test" target="1.8" />
+      <module name="mybatis_main" target="1.8" />
+      <module name="mybatis_test" target="1.8" />
+      <module name="server-1_main" target="1.8" />
+      <module name="server-1_test" target="1.8" />
+      <module name="server_main" target="1.8" />
+      <module name="server_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

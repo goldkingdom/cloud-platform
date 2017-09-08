@@ -1,0 +1,17 @@
+server.port: 1001
+
+contextContainer:
+
+baseConfig:
+  beanPath: cn.xj.project.model
+
+spring:
+  application.name: server-1
+  cloud.config:
+    uri: ${SPRING_CONFIG_URI:http://localhost:9001}
+    name: ${spring.application.name}
+    profile: ${config.profile:dev}
+  http.encoding:
+    force: true
+    enabled: true
+    charset: UTF-8

@@ -3,7 +3,7 @@ server.port: 9999
 spring:
   application.name: config-server-1
   profiles:
-    active: dev
+    active: ${config.profile:dev}
   cloud:
     config:
       profile: ${spring.profiles.active}
@@ -21,6 +21,7 @@ spring:
         serviceName: ${spring.application.name}
         port: ${server.port}
         healthCheckPath: /health
+#        healthCheckUrl: http://${spring.cloud.consul.host}:${server.port}/health
         healthCheckInterval: 15s
         preferIpAddress: true
         tags: ${spring.application.name}

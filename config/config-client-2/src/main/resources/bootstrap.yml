@@ -1,11 +1,12 @@
-server.port: 9001
+server.port: 9902
 
 spring:
-  application.name: config-client-1
+  application.name: config-client-2
   profiles:
     active: dev
   cloud:
     config:
+      uri: http://localhost:9999
       profile: ${spring.profiles.active}
     consul:
       enabled: true
@@ -17,6 +18,7 @@ spring:
         serviceName: ${spring.application.name}
         port: ${server.port}
         healthCheckPath: /health
+#        healthCheckUrl: http://${spring.cloud.consul.host}:${server.port}/health
         healthCheckInterval: 15s
         preferIpAddress: true
         tags: ${spring.application.name}
