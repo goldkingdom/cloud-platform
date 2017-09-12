@@ -1,0 +1,5 @@
+dependencies {
+    compile("org.springframework.cloud:spring-cloud-starter-feign")
+    compile project(":client")
+    compile project(":asset:asset-1")
+}

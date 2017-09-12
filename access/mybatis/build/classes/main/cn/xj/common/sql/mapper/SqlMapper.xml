@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.xj.common.sql.mapper.SqlMapper">
+
+    <sql id="sqlBuilder">
+        <foreach collection="instructionBuilders" item="item" index="index">
+            ${item.handle}
+            <if test="item.param != null">
+                #{item.param}
+            </if>
+        </foreach>
+    </sql>
+
+    <select id="query" parameterType="baseInfo" resultType="map">
+        <include refid="sqlBuilder"/>
+    </select>
+
+    <select id="queryOnes" parameterType="baseInfo" resultType="object">
+        <include refid="sqlBuilder"/>
+    </select>
+
+    <select id="queryOne" parameterType="baseInfo" resultType="object">
+        <include refid="sqlBuilder"/>
+    </select>
+
+    <insert id="save" parameterType="baseInfo">
+        <include refid="sqlBuilder"/>
+    </insert>
+
+    <update id="update" parameterType="baseInfo">
+        <include refid="sqlBuilder"/>
+    </update>
+
+    <delete id="remove" parameterType="baseInfo">
+        <include refid="sqlBuilder"/>
+    </delete>
+
+</mapper>

@@ -2,6 +2,8 @@ package cn.xj;
 
 import cn.xj.common.annotation.Model;
 import cn.xj.common.container.ContextContainer;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,10 +18,10 @@ import org.springframework.context.annotation.Bean;
 @EnableDiscoveryClient
 public class Application {
 
+    private final Logger logger = LoggerFactory.getLogger(Application.class);
+
     @Autowired
     private ContextContainer container;
-
-    private final Logger logger = LoggerFactory.getLogger(Application.class);
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
@@ -34,6 +36,11 @@ public class Application {
                 container.loadContext(name.substring(0, 1).toUpperCase() + name.substring(1));
             }
         };
+    }
+
+    @Bean
+    public ObjectMapper objectMapper() {
+        return new ObjectMapper().disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);
     }
 
 }

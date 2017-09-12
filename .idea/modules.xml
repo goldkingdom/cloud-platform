@@ -11,6 +11,12 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/asset/asset-1/asset-1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/asset/asset-1/asset-1_test.iml" group="asset/asset-1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/asset/asset_main.iml" filepath="$PROJECT_DIR$/.idea/modules/asset/asset_main.iml" group="asset" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/asset/asset_test.iml" filepath="$PROJECT_DIR$/.idea/modules/asset/asset_test.iml" group="asset" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/client.iml" filepath="$PROJECT_DIR$/.idea/modules/client/client.iml" group="client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/client-1/client-1.iml" filepath="$PROJECT_DIR$/.idea/modules/client/client-1/client-1.iml" group="client/client-1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/client-1/client-1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/client/client-1/client-1_main.iml" group="client/client-1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/client-1/client-1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/client/client-1/client-1_test.iml" group="client/client-1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/client/client_main.iml" group="client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/client/client_test.iml" group="client" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-platform.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-platform.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-platform_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-platform_main.iml" group="cloud-platform" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-platform_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-platform_test.iml" group="cloud-platform" />
@@ -26,6 +32,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config-server-1/config-server-1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config-server-1/config-server-1_test.iml" group="config/config-server-1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config_main.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config_main.iml" group="config" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/config/config_test.iml" filepath="$PROJECT_DIR$/.idea/modules/config/config_test.iml" group="config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway/gateway.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway/gateway.iml" group="gateway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway/gateway_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway/gateway_main.iml" group="gateway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway/gateway_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway/gateway_test.iml" group="gateway" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/access/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/.idea/modules/access/mybatis/mybatis.iml" group="access/mybatis" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/access/mybatis/mybatis_main.iml" filepath="$PROJECT_DIR$/.idea/modules/access/mybatis/mybatis_main.iml" group="access/mybatis" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/access/mybatis/mybatis_test.iml" filepath="$PROJECT_DIR$/.idea/modules/access/mybatis/mybatis_test.iml" group="access/mybatis" />

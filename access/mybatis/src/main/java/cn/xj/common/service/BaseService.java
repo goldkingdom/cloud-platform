@@ -1,5 +1,8 @@
 package cn.xj.common.service;
 
+import cn.xj.common.model.BaseInfo;
+import cn.xj.common.model.PageInfo;
+
 import java.util.List;
 import java.util.Map;
 
@@ -8,18 +11,18 @@ import java.util.Map;
  */
 public interface BaseService {
 
-    public List query(StringBuffer instruction, Map params);
+    public List query(BaseInfo info);
 
-    public List query(StringBuffer instruction, Map params, Map pager, String countColumn);
+    public List queryByPage(PageInfo info);
 
-    public List queryOnes(StringBuffer instruction, Map params);
+    public List queryOnes(BaseInfo info);
 
-    public Object queryOne(StringBuffer instruction, Map params);
+    public Object queryOne(BaseInfo info);
 
-    public boolean save(StringBuffer instruction, Map params) throws Exception;
+    public boolean save(BaseInfo info) throws Exception;
 
-    public boolean update(StringBuffer instruction, Map params) throws Exception;
+    public boolean update(BaseInfo info) throws Exception;
 
-    public boolean remove(StringBuffer instruction, Map params) throws Exception;
+    public boolean remove(BaseInfo info) throws Exception;
 
 }

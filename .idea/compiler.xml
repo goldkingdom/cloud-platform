@@ -25,6 +25,10 @@
       <module name="asset-1_test" target="1.8" />
       <module name="asset_main" target="1.8" />
       <module name="asset_test" target="1.8" />
+      <module name="client-1_main" target="1.8" />
+      <module name="client-1_test" target="1.8" />
+      <module name="client_main" target="1.8" />
+      <module name="client_test" target="1.8" />
       <module name="cloud-platform_main" target="1.8" />
       <module name="cloud-platform_test" target="1.8" />
       <module name="config-client-1_main" target="1.8" />
@@ -35,6 +39,8 @@
       <module name="config-server-1_test" target="1.8" />
       <module name="config_main" target="1.8" />
       <module name="config_test" target="1.8" />
+      <module name="gateway_main" target="1.8" />
+      <module name="gateway_test" target="1.8" />
       <module name="mybatis_main" target="1.8" />
       <module name="mybatis_test" target="1.8" />
       <module name="server-1_main" target="1.8" />

@@ -32,10 +32,15 @@ allprojects {
     dependencies {
         compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}",
 //                "org.springframework.cloud:spring-cloud-starter-consul-all",
+                "org.springframework.cloud:spring-cloud-starter-consul-discovery",
+                "org.springframework.cloud:spring-cloud-starter-config",
+                "org.springframework.cloud:spring-cloud-starter-hystrix",
+                "org.springframework.cloud:spring-cloud-starter-bus-amqp",
                 "org.springframework.cloud:spring-cloud-starter-sleuth",
-                "org.springframework.boot:spring-boot-starter-web",
                 "org.springframework.boot:spring-boot-devtools",
+                "org.springframework.boot:spring-boot-starter-web",
                 "org.springframework.boot:spring-boot-starter-actuator",
+                "org.springframework.boot:spring-boot-configuration-processor",
                 "org.apache.commons:commons-lang3:3.4",
                 "com.google.guava:guava:${guavaVersion}",
                 "com.google.code.gson:gson:${gsonVersion}")
