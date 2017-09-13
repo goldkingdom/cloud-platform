@@ -1,4 +1,5 @@
 dependencies {
+    compile project(":server")
     compile project(":access:mybatis")
     compile project(":asset:asset-1")
 }

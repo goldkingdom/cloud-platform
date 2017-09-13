@@ -6,6 +6,19 @@ provider:
 
 baseConfig.version: 1.0-SNAPSHOT
 
+feign:
+  hystrix.enabled: true
+  compression:
+    request:
+      enabled: true #请求和响应GZIP压缩支持
+      mime-types: text/xml,application/xml,application/json #支持压缩的mime types
+      min-request-size: 2048
+    response.enable: true
+
+logging:
+  level:
+    project.user.userClient: DEBUG
+
 spring:
   application.name: client-1
   profiles:

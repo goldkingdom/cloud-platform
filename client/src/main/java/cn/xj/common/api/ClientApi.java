@@ -1,10 +1,10 @@
 package cn.xj.common.api;
 
-import cn.xj.common.model.BaseBean;
 import cn.xj.common.model.BaseInfo;
 import cn.xj.common.model.BatchInfo;
 import cn.xj.common.model.PageInfo;
 import org.springframework.cloud.bus.ConditionalOnBusEnabled;
+import org.springframework.cloud.consul.ConditionalOnConsulEnabled;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.List;
 
 @FeignClient("${provider.mybatis}")
+@ConditionalOnConsulEnabled
 @ConditionalOnBusEnabled
 public interface ClientApi {
 

@@ -25,8 +25,8 @@ allprojects {
         springBootVersion = "1.5.6.RELEASE"
         consulVersion = "1.2.1.RELEASE"
         sleuthVersion = "1.2.4.RELEASE"
-        guavaVersion = "14.0-rc2"
-        gsonVersion = "2.8.0"
+        guavaVersion = "23.0"
+        gsonVersion = "2.8.1"
     }
 
     dependencies {
@@ -35,7 +35,7 @@ allprojects {
                 "org.springframework.cloud:spring-cloud-starter-consul-discovery",
                 "org.springframework.cloud:spring-cloud-starter-config",
                 "org.springframework.cloud:spring-cloud-starter-hystrix",
-                "org.springframework.cloud:spring-cloud-starter-bus-amqp",
+                "org.springframework.cloud:spring-cloud-starter-hystrix-dashboard",
                 "org.springframework.cloud:spring-cloud-starter-sleuth",
                 "org.springframework.boot:spring-boot-devtools",
                 "org.springframework.boot:spring-boot-starter-web",
